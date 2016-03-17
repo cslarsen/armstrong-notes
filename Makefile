@@ -1,5 +1,5 @@
-MAIN := notes.tex
-TARGETS := notes.pdf
+MAIN := armstrong-notes.tex
+TARGETS := armstrong-notes.pdf
 
 # Change these for your needs
 ifeq ($(shell uname), Linux)
@@ -18,7 +18,7 @@ all: $(TARGETS)
 open: $(TARGETS)
 	open $^
 
-notes.pdf: notes.tex preamble.tex
+armstrong-notes.pdf: armstrong-notes.tex preamble.tex
 
 %.pdf: %.tex
 	$(PDFLATEX) $<

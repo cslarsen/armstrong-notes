@@ -1,4 +1,4 @@
-Notes for M.A. Armstrong's GROUPS AND SYMMETRY
+Notes for M.A. Armstrong's Groups and Symmetry
 ==============================================
 
 These are my collection of notes for the book
@@ -8,6 +8,12 @@ These are my collection of notes for the book
 
 for an introductory course in abstract algebra. I use them to look up
 definitions, theorems and tricks.
+
+Requirements to build
+---------------------
+
+Just use either of TeX Live or MacTeX, and you should have all the packages. I
+also upload a PDF for every commit.
 
 License
 -------
