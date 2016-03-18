@@ -1,16 +1,26 @@
+% UTF-8 source format
 \usepackage[utf8]{inputenc}
 
 % I often type this on OSX, so ignore it.
 \DeclareUnicodeCharacter{00A0}{ }
 
+% It's written in English
 \usepackage[english]{babel}
+
+% Use times font, I love it.
 \usepackage{times}
 \usepackage[T1]{fontenc}
+
+% Empty line paragraphs
 \usepackage{parskip}
-\usepackage{amsmath}
-\usepackage{amssymb}
+
+% References
 \usepackage{varioref}
 \usepackage[hidelinks]{hyperref}
+
+% Math environments, etc.
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 % \nicefrac
 \usepackage{units}
@@ -23,3 +33,9 @@
 
 % Mod without spaces
 \newcommand{\Mod}[1]{\ (\text{mod}\ #1)}
+
+% A simple theorem
+\newcommand{\theorem}[1]{\textbf{(#1)}\label{theorem-#1}}
+
+% Control enumerations
+\usepackage{enumitem}
