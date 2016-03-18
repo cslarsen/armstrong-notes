@@ -9,6 +9,12 @@ These are my collection of notes for the book
 for an introductory course in abstract algebra. I use them to look up
 definitions, theorems and tricks.
 
+The rendered PDF file
+---------------------
+
+You can view the latest file directly at
+[https://github.com/cslarsen/armstrong-notes/raw/master/armstrong-notes.pdf](https://github.com/cslarsen/armstrong-notes/raw/master/armstrong-notes.pdf)
+
 Requirements to build
 ---------------------
 
