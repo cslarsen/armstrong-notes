@@ -250,6 +250,44 @@
   elements of $O_n$ which have determinant equal to $+1$ form a subgroup of
   $O_n$ called the \textbf{\textit{Special Orthogonal Group}}, $SO_n$.
 
-  \textit{No further notes here.}
+  \textit{No further notes here, at the moment.}
+
+  \section{Products}
+  The \textbf{\textit{direct product}} $G \times H$ of two groups $G$ and $H$
+  is constructed by $(g,h)(g',h') = (gg',hh')$, where $g, g' \in G$ and $h, h'
+  \in H$. Thus, $(gg',hh') \in G \times H$ and $G \times H$ is a group. The
+  correspondence $(g,h) \rightarrow (h,g)$ means that $G \times H$ is
+  isomorphic to $H \times G$. Unless either of $G$ or $H$ are of infinite
+  order, $|G \times H| = |G|\cdot|H|$. If both $G$ and $H$ are abelian, so is
+  $G \times H$. In reverse, if $G \times H$ is abelian, so are both $G$ and
+  $H$.
+
+  E.g., the elements of $\mathbb{Z}_2 \times \mathbb{Z}_3$ are
+  $\{0,1\}\times\{0,1,2\} = \{(0,0), (0,1), (0,2), (1,0), (1,1), (1,2)\}$ and
+  their elements are combined by $(x,y) + (x',y') = (x \,+_2\, x', y \,+_3\, y')$.
+  We follow the convention of using $+$ for the group structure whenever we
+  have products of cyclic groups. As continually adding $(1,1)$ to itself, we
+  can fill out the whole group, and therefore $\mathbb{Z}_2 \times
+  \mathbb{Z}_3$ is cyclic and isomorphic to $\mathbb{Z}_6$.
+
+  \paragraph{Klein's group} $\mathbb{Z}_2 \times \mathbb{Z}_2$ is non-cyclic
+  and isomorphic to the group of plane symmetries of a chessboard.
+
+  We write $\mathbb{R}^n$ for the direct product of $n$ copies of $\mathbb{R}$.
+
+  \paragraph{Theorem \theorem{10.1}} $\mathbb{Z}_m \times \mathbb{Z}_n$ is
+  cyclic if and only if the highest common factor of $m$ and $n$ is 1.
+
+  \paragraph{Theorem \theorem{10.2}} If $H$ and $K$ are subgroups of $G$ for
+  which $HK=G$, if they have only the identity element in common, and if every
+  element of $H$ commutes with every element of $K$, then $G$ is isomorphic to
+  $H \times K$.
+
+  The linear transofmration $f_J\colon \mathbb{R}^3 \rightarrow \mathbb{R}^3$
+  sends each vector $\bm{x}$ to $\bm{-x}$ and is called
+  \textbf{\textit{central inversion}}.
+
+  \textit{Some important notions at the end of the chapter have been left out,
+  currently.}
 
 \end{document}
